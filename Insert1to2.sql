@@ -1,0 +1,23 @@
+   
+  INSERT INTO [Only4agents_Promotions].[dbo].[Customer](
+      [PhotoPath]
+      ,[FirstName]
+      ,[LastName]
+      ,[EmailId]
+      ,[MobileNo]
+      ,[DOB]
+      ,[Address]
+      ,[CreatedOn]
+      ,[LastUpdatedOn]
+      ,[MiddleName])
+SELECT  [PhotoPath]
+      ,[FirstName]
+      ,[LastName]
+      ,[EmailId]
+      ,[MobileNo]
+      ,[DOB]
+      ,[Address]
+      ,[CreatedOn]
+      ,[LastUpdatedOn]
+      ,[MiddleName]
+FROM [CommunicationAppCopy].[dbo].[Customer]
